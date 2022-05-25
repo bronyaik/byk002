@@ -32,7 +32,7 @@ int FindGreatestSumOfSubArr(int arr[],int len)
 
 int main()
 {
-    int arr[] = {1,-2,3,9,-4,7,2,-5};
+    int arr[] = {1,2,-2,3,9,-4,7,2,-5};
     int len = sizeof(arr)/sizeof(arr[0]);
     int ret = FindGreatestSumOfSubArr(arr,len);
     if(Sta == 0)
